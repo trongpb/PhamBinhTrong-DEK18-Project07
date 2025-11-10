@@ -1,0 +1,12 @@
+sources:
+  - name: summary_mongo_na
+    database: unigap-project05
+    schema: summary_mongo
+    tables:
+      - name: tbl_summary_export_checkout_success
+      
+  - name: ip_location
+    database: unigap-project05
+    schema: ip_location
+    tables:
+      - name: tbl_ip_location
