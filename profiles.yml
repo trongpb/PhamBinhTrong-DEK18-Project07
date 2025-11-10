@@ -1,0 +1,14 @@
+dbt_bigquery_prj7:
+  outputs:
+    dev:
+      dataset: dbt_dataset_bigquery_prj7
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: D:\MDM\Unigap\Project\Project7\unigap-project05-5f70e6b80a50.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: unigap-project05
+      threads: 4
+      type: bigquery
+  target: dev
